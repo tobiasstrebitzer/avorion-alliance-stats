@@ -1,6 +1,7 @@
 {
   "interval": 3600,
   "discord": {
+    "channel": 744444444444444444,
     "clientId": 111122223333444455,
     "clientSecret": "SECRET",
     "token": "TOKEN"

@@ -35,7 +35,7 @@ module.exports = class Avorion {
       new Promise((resolve) => { this.connection.on('auth', resolve); this.connection.connect() }),
       new Promise((resolve) => { this.discord.once('ready', resolve); this.discord.login(config.discord.token) })
     ])
-    this.channel = await this.discord.channels.fetch('744492463032631319')
+    this.channel = await this.discord.channels.fetch(config.discord.channel)
   }
 
   getAllianceData() {
