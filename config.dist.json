@@ -1,0 +1,14 @@
+{
+  "interval": 3600,
+  "discord": {
+    "clientId": 111122223333444455,
+    "clientSecret": "SECRET",
+    "token": "TOKEN"
+  },
+  "avorion": {
+    "allianceId": 1,
+    "host": "127.0.0.1",
+    "port": 27015,
+    "password": ""
+  }
+}
